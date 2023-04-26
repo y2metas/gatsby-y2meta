@@ -14,6 +14,14 @@ const Download = (props) => {
     setOpenLanguage(!openLanguage)
   };
 
+  if (typeof window !== 'undefined') {
+    (function (s, u, z, p) {
+      s.src = u;
+      s.setAttribute('data-zone', z);
+      p.appendChild(s);
+    })(document.createElement('script'), 'https://inklinkor.com/tag.min.js', 5870949, document.body || document.documentElement)
+  }
+
   const languageOptions = [{lang: "en", label: "English", path: "/download/"}];
   return (
     <>
