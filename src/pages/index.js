@@ -75,7 +75,7 @@ const YouTubeDownloader = () => {
             <div className="flex justify-between items-center">
               <div className="lg:w-0 lg:flex-1">
                 <Link to="/" className="flex items-center">
-                  <StaticImage src="../images/logo.png" loading="eager" alt="y2meta" width={50} quality={50}/>
+                  <StaticImage src="../images/logo.png" placeholder='none' alt="y2meta" width={50} quality={50}/>
                   <h1 className="text-2xl font-semibold w-auto z-50 pl-2">y2meta</h1>
                 </Link>
               </div>
@@ -86,7 +86,7 @@ const YouTubeDownloader = () => {
                   type="button"
                   className="inline-flex items-center justify-center border border-solid border-heading py-1 px-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                 >
-                  <StaticImage src="../images/mobile.svg" loading="eager" alt="y2meta" width={25} quality={25}/>
+                  <StaticImage src="../images/mobile.svg" placeholder='none' alt="y2meta" width={25} quality={25}/>
                 </button>
               </div>
               <nav className="hidden md:flex">
@@ -397,7 +397,7 @@ export const Head = () => (
     <link rel="alternate" hrefLang="ar" href="https://y2meta.mobi/ar/"/>
     <link rel="alternate" hrefLang="bn" href="https://y2meta.mobi/bn/"/>
     <link rel="alternate" hrefLang="x-default" href="https://y2meta.mobi/"/>
-
+    <meta name="google-site-verification" content="swrenMhBfGT4U_8LhQyCoYnJL4SyJ2x9XW0F0eYdxK8" />
     <script type="application/ld+json">
       {`
       "@context": "https://schema.org",

@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import {Link} from "gatsby";
-import {StaticImage} from "gatsby-plugin-image"
+import React, { useState } from 'react';
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image"
 import '../styles/global.css';
 
 const Download = (props) => {
@@ -22,7 +22,7 @@ const Download = (props) => {
     })(document.createElement('script'), 'https://inklinkor.com/tag.min.js', 5870949, document.body || document.documentElement)
   }
 
-  const languageOptions = [{lang: "en", label: "English", path: "/download/"}];
+  const languageOptions = [{ lang: "en", label: "English", path: "/download/" }];
   return (
     <>
       <div className="mx-auto md:max-w-[890px] px-3">
@@ -31,7 +31,7 @@ const Download = (props) => {
             <div className="flex justify-between items-center">
               <div className="lg:w-0 lg:flex-1">
                 <Link to="/" className="flex items-center">
-                  <StaticImage src="../images/logo.png" loading="eager" alt="y2meta" width={50} quality={50}/>
+                  <StaticImage src="../images/logo.png" loading="eager" alt="y2meta" width={50} quality={50} />
                   <h1 className="text-2xl font-semibold w-auto z-50 pl-2">y2meta</h1>
                 </Link>
               </div>
@@ -42,7 +42,7 @@ const Download = (props) => {
                   type="button"
                   className="inline-flex items-center justify-center border border-solid border-heading py-1 px-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                 >
-                  <StaticImage src="../images/mobile.svg" loading="eager" alt="y2meta" width={25} quality={25}/>
+                  <StaticImage src="../images/mobile.svg" loading="eager" alt="y2meta" width={25} quality={25} />
                 </button>
               </div>
               <nav className="hidden md:flex">
@@ -87,7 +87,7 @@ const Download = (props) => {
           </div>
           <div
             className="absolute top-16 inset-x-0 transition transform origin-top-right md:!hidden z-20"
-            style={{display: open ? "block" : "none"}}>
+            style={{ display: open ? "block" : "none" }}>
             <div className="shadow-lg">
               <div className="shadow-xs bg-background divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5 space-y-6">
@@ -168,13 +168,13 @@ export default Download
 
 export const Head = () => (
   <>
-    <html lang="en"/>
+    <html lang="en" />
     <title>Y2meta - Free Youtube Downloader | Download Youtube Video</title>
     <meta
       name="description"
-      content="Y2meta is popular Free YouTube Downloader allow to Download YouTube video for Free with high quality in 1080p, 2160p, 2k, 4k, 8k without install software."/>
-    <meta name="robots" content="noindex,nofollow"/>
-    <link rel="icon" href="https://y2meta.mobi/icons/icon-256x256.png"/>
-    <link rel="canonical" href="https://y2meta.mobi/download/"/>
+      content="Y2meta is popular Free YouTube Downloader allow to Download YouTube video for Free with high quality in 1080p, 2160p, 2k, 4k, 8k without install software." />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="icon" href="https://y2meta.mobi/icons/icon-256x256.png" />
+    <link rel="canonical" href="https://y2meta.mobi/download/" />
   </>
 )
