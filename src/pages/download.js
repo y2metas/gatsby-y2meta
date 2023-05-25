@@ -194,7 +194,7 @@ const Download = (props) => {
               <div>
                 <iframe
                   className="h-[1000px]"
-                  src={`https://ytconvert.me/api/widgetv2?url=${url}`}
+                  src={`https://www.yt2mp3s.me/api/widgetv2?url=${url}`}
                   sandbox="allow-scripts allow-same-origin allow-presentation allow-downloads allow-forms"
                   width="100%" height="100%" allowTransparency="true" scrolling="yes" style={{border: "none"}}
                 />
